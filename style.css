@@ -10,7 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   background-image: url('https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149017048.jpg?t=st=1724255970~exp=1724259570~hmac=7136392f99d4057a143bb16a24bac58b51e9f05629cab7fa6040e47e2acfc7b5&w=740');
-  background-position: center;
+  background-position: none;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,6 +62,11 @@ input, textarea {
 }
 
 .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+.inline{
   display: inline; 
 }
 
