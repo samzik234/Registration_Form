@@ -1,13 +1,16 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
   background-color: #1b1b32;
-  color: #f5f6f7;
-  font-family: Tahoma;
+  color: #080808;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  background-image:url(./Pink\ and\ Purple\ Gradient\ Tech\ Abstract\ Logo.jpg);
-  background-position:none ;
+  background-image: url('https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149017048.jpg?t=st=1724255970~exp=1724259570~hmac=7136392f99d4057a143bb16a24bac58b51e9f05629cab7fa6040e47e2acfc7b5&w=740');
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,6 +19,10 @@ body {
 h1, p {
   margin: 1em auto;
   text-align: center;
+}
+
+p {
+  font-style: italic;
 }
 
 form {
@@ -41,25 +48,21 @@ label {
   margin: 0.5rem 0;
 }
 
-input,
-textarea,
-select {
+input, textarea, select {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
 }
 
 input, textarea {
-  background-color: #080808;
+  background-color: rgb(248, 244, 244);
   border: 1px solid #616192;
-  color: #ffffff;
-  border-radius:9px;
+  color: #0d0d0d;
+  border-radius: 9px;
 }
 
 .inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
+  display: inline; 
 }
 
 input[type="submit"] {
@@ -68,8 +71,10 @@ input[type="submit"] {
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
+  background-color: gray;
+  opacity: 1;
+  border: 1px solid rgb(14, 9, 9);
+  border-radius: 5px;
   min-width: 300px;
 }
 
@@ -77,16 +82,6 @@ input[type="file"] {
   padding: 1px 2px;
 }
 
-.inline{
-  display: inline; 
+a {
+  color: gray;
 }
-
-a{
-  color:#dfdfe2;
-}
-
-
-
-
-
-
